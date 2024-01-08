@@ -29,7 +29,7 @@ const DarkMode = () => {
              onChange={toggleTheme}
             />
             <label className="dark_mode_label" for="darkmode_toggle">
-                <img src={Sun} alt="light_img" />
+                <img src={sunnyImg} alt="light_img" />
             </label>
 
         </div>
