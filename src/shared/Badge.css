@@ -1,0 +1,17 @@
+.badge {
+    display: grid;
+    place-items: center;
+    padding: 2px 10px;
+    gap: 4px;
+    background: var(--primary-color);
+}
+
+.badge h1 {
+    font-family: var(--subtitle-font-name);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin: auto;
+    padding: 4px 10px;
+}

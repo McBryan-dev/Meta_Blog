@@ -1,0 +1,146 @@
+.single_post_area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.single_post_area .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content .info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 20px;
+}
+
+.content .info .profile {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    width: 800px;
+}
+
+.content .info .profile .para {
+    align-self: stretch;
+}
+
+.content .info .profile .para p {
+    color: #181A2A;
+    font-family: var(--subtitle-font-name);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.content .info .author_info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.content .info .author_info .author {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.content .info .author_info .author h5 {
+    color: #696A75;
+    font-family: var(--subtitle-font-name);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.content .info .author_info .date h5 {
+    color: #696A75;
+    font-family: var(--subtitle-font-name);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.content .f_article {
+    width: 804px;   
+}
+
+.content .f_article p {
+    color: #3B3C4A;
+    font-family: var(--source-serif);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.content .main_article {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.content .main_article .data {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    width: 804px;
+}
+
+.content .main_article .data .title {
+    align-self: stretch;
+}
+
+.content .main_article .data .title h3 {
+    font-family: var(--subtitle-font-name);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.content .main_article .data .body {
+    align-self: stretch;
+}
+
+.content .main_article .data .body p {
+    color: #3B3C4A;
+    font-family: var(--source-serif);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.content .quote {
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+    align-self: stretch;
+    border-radius: 12px;
+    border-left: 4px solid #E8E8EA;
+    background: #F6F6F7;
+    flex: 1 0 0;
+}
+
+.content .quote p {
+    width: 736px;
+    color: #181A2A;
+    font-family: var(--source-serif);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+}

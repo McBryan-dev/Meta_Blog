@@ -1,0 +1,10 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.active_state {
+    display: flex;
+    flex-direction: column;
+    background: grey;
+}

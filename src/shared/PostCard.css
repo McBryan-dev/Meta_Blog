@@ -1,0 +1,342 @@
+.posts_area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: flex-start;
+}
+
+.posts_area .card:hover {
+    transform: scale(1.03);
+    transition: .2s ease-out;
+}
+
+.posts_area .card {
+    gap: 20px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #E8E8EA;
+    background:#FFF; 
+    width: 392px;
+    display: flex;
+    transition: .2s ease-out;
+}
+
+.posts_area .card a {
+    text-decoration: none;
+}
+
+.posts_area .card .card_texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.posts_area .card .card_texts .badge {
+    display: flex;
+    justify-content: center;
+    padding: 4px 10px;
+    gap: 4px;
+    border-radius: 6px;
+    background: rgba(75, 107, 251, 0.05);
+}
+
+.posts_area .card .card_texts .badge h3 {
+    color: #4B6BFB;
+    font-family: var(--subtitle-font-name);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.posts_area .card .card_texts p {
+    font-family: var(--subtitle-font-name);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #181A2A;
+}
+
+.posts_area .card .short_info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.posts_area .card .short_info .profile_info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.posts_area .card .short_info .profile_info h3 {
+    color: #97989F;
+    font-size: 16px;
+    font-style: normal;
+    font-family: var(--subtitle-font-name);
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.posts_area .card .short_info h4 {
+    color: #97989F;
+    font-size: 16px;
+    font-style: normal;
+    font-family: var(--subtitle-font-name);
+    font-weight: 300;
+    line-height: 27px;
+}
+
+@media only screen and (min-width: 951px) and (max-width: 1023px) {
+
+    .posts_area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        place-content: center;
+        place-items: center;
+    }
+
+    .posts_area .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+
+    .posts_area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px 30px;
+        align-items: center;
+    }
+
+    .posts_area .card {
+        gap: 20px;
+        padding: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid #E8E8EA;
+        background:#FFF; 
+        width: 348px;
+        display: flex;
+        transition: .2s ease-out;
+    }
+
+    .posts_area .card .image img {
+        width: 548px;
+        padding: 2px;
+    }
+
+    .posts_area .card .card_texts p {
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #181A2A;
+    }
+
+    .posts_area .card .short_info .profile_info h3 {
+        color: #97989F;
+        font-size: 11px;
+        font-style: normal;
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    .posts_area .card .short_info h4 {
+        color: #97989F;
+        font-size: 11px;
+        font-style: normal;
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .posts_area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        align-items: flex-start;
+    }
+
+    .posts_area .card {
+        gap: 20px;
+        padding: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid #E8E8EA;
+        background:#FFF; 
+        width: 372px;
+        display: flex;
+        transition: .2s ease-out;
+    }
+
+    .posts_area .card .image img {
+        width: 348px;
+        padding: 2px;
+    }
+
+    .posts_area .card .card_texts p {
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        color: #181A2A;
+    }
+
+    .posts_area .card .short_info .profile_info h3 {
+        color: #97989F;
+        font-size: 11px;
+        font-style: normal;
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    .posts_area .card .short_info h4 {
+        color: #97989F;
+        font-size: 11px;
+        font-style: normal;
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+}
+
+@media only screen and (min-width: 281px) and (max-width: 430px) {
+    
+    .posts_area .card {
+        gap: 25px;
+        padding: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid #E8E8EA;
+        background:#FFF; 
+        width: 372px;
+        display: flex;
+        transition: .2s ease-out;
+    }
+    
+}
+
+@media only screen and (min-width: 100px) and (max-width: 339px) {
+
+    .posts_area .card {
+        gap: 20px;
+        padding: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid #E8E8EA;
+        background:#FFF; 
+        width: 272px;
+        display: flex;
+        transition: .2s ease-out;
+    }
+
+    .posts_area .card .image img {
+        width: 348px;
+        padding: 2px;
+    }
+
+    .posts_area .card .card_texts p {
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        color: #181A2A;
+    }
+
+    .posts_area .card .short_info .profile_info h3 {
+        color: #97989F;
+        font-size: 11px;
+        font-style: normal;
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+    .posts_area .card .short_info h4 {
+        color: #97989F;
+        font-size: 11px;
+        font-style: normal;
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        line-height: 27px;
+    }
+
+}
+
+@media only screen and (min-width: 340px) and (max-width: 600px) {
+
+    .posts_area .card .image img {
+        width: 328px;
+        padding: 2px;
+    }
+
+    .posts_area .card {
+        gap: 20px;
+        padding: 16px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid #E8E8EA;
+        background:#FFF; 
+        width: 332px;
+        display: flex;
+        transition: .2s ease-out;
+    }
+
+    .posts_area .card .card_texts p {
+        font-family: var(--subtitle-font-name);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #181A2A;
+    }
+
+    .posts_area .card .short_info .profile_info h3 {
+        color: #97989F;
+        font-size: 13px;
+        font-style: normal;
+        font-family: var(--subtitle-font-name);
+        font-weight: 500;
+        line-height: 27px;
+    }
+
+    .posts_area .card .short_info h4 {
+        color: #97989F;
+        font-size: 13px;
+        font-style: normal;
+        font-family: var(--subtitle-font-name);
+        font-weight: 300;
+        line-height: 27px;
+    }
+
+
+}
